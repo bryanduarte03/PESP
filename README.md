@@ -72,17 +72,18 @@ Run on pipelined CPU:
 ## Example
 
 ### Assembly
+```
 LDI R1, 5
 LDI R2, 5
 BEQ R1, R2, 4
 LDI R3, 99
 HLT
+```
 
-Behavior:
+### Behavior
 - Branch is taken
 - LDI R3, 99 is flushed
 - Demonstrates control hazard handling
-
 ---
 
 ## Pipeline Features (PESPv2)
