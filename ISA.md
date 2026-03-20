@@ -42,40 +42,38 @@ SUB   rd, rs1, rs2    ; rd = rs1 - rs2
 AND   rd, rs1, rs2    ; rd = rs1 & rs2  
 OR    rd, rs1, rs2    ; rd = rs1 | rs2  
 
----
+
 
 ## Immediate Instructions
 
 LDI   rd, imm         ; rd = immediate  
 
----
+
 
 ## Memory Instructions
 
 LD    rd, rs1, imm    ; rd = MEM[rs1 + imm]  
 ST    rs2, rs1, imm   ; MEM[rs1 + imm] = rs2  
 
----
+
 
 ## Branch Instructions
 
 BEQ   rs1, rs2, imm   ; if (rs1 == rs2) PC = imm  
 BNE   rs1, rs2, imm   ; if (rs1 != rs2) PC = imm  
 
----
 
 ## Jump Instructions
 
 JMP   imm             ; PC = imm  
 JCD   rs1, imm        ; if (rs1 == 0) PC = imm  
 
----
+
 
 ## System Instructions
 
 HLT                   ; halt execution  
 
----
 
 ## Pipeline Behavior (PESPv2)
 
