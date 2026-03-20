@@ -46,24 +46,6 @@ This project explores CPU design concepts including:
 
 ---
 
-## Project Structure
-
-PESP/
-├── assembler/
-│   └── PESPAssembler.c
-├── simulator/
-│   ├── PESP.c
-│   └── PESPv2.c
-├── programs/
-│   ├── test.asm
-│   └── test.bin
-├── ISA.md
-├── docs/
-├── tools/
-└── README.md
-
----
-
 ## Build Instructions
 
 Build assembler:
