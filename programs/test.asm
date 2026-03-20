@@ -1,0 +1,4 @@
+LDI R1, 5
+JMP 3
+LDI R2, 99
+HLT

@@ -1,0 +1,6 @@
+.DS_Store
+*.dSYM/
+assembler
+pesp
+pespv2
+*.o
