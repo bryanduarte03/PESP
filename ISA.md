@@ -1,4 +1,3 @@
-cat > ISA.md <<'EOF'
 # PESP Instruction Set Architecture (ISA)
 
 This document describes the instruction set for the PESP CPU and its pipelined version (PESPv2).
@@ -106,6 +105,4 @@ Behavior:
 
 - Immediate values use 13 bits  
 - Instruction encoding varies by type  
-- Designed for educational CPU design and simulation  
-
-EOF
+- Designed for educational CPU design and simulation
