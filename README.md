@@ -71,7 +71,7 @@ Run on pipelined CPU:
 
 ## Example
 
-Assembly:
+### Assembly
 LDI R1, 5
 LDI R2, 5
 BEQ R1, R2, 4
